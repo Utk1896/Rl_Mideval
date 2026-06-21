@@ -167,15 +167,17 @@ Build an agent that uses the `user_type` context (provided in `context["user_typ
 
 ## Submission Instructions
 
-1. Copy `submission_template/` and rename it: `YourTeamName/`
-2. Fill in `agent.py` — implement all 4 classes.
-3. Add any pre-computed files (e.g., saved Q-tables) to `artifacts/`
-4. Update `requirements.txt`
-5. **Self-test before submitting:**
+1. **Fork** this repository on GitHub and **clone** your fork locally.
+2. Copy `submission_template/` and rename it to: `YourName_RollNumber/`
+3. Fill in `agent.py` inside your folder — implement all 4 classes.
+4. Add any pre-computed files (e.g., saved Q-tables) to `artifacts/`
+5. Update `requirements.txt` with any additional dependencies.
+6. **Self-test before submitting:**
    ```bash
    python run_your_agent.py
    ```
-6. Zip and submit: `YourTeamName.zip`
+7. Commit and push your `YourName_RollNumber/` folder to your forked repo.
+8. Open a **Pull Request** to the main repository with your submission folder.
 
 ---
 
